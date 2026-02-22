@@ -19,8 +19,8 @@ A comprehensive workout logging application that allows users to track exercises
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd workout-tracker-pro
+  git clone <your-repo-url>
+  cd workout-tracker-pro
 2. Backend Setup
   Navigate to the back folder: cd back
   
@@ -34,17 +34,17 @@ cd workout-tracker-pro
   Start the server: npm start (or npm run dev)
 
 3. Frontend Setup
-Navigate to the front folder: cd ../front
-
-Install dependencies: npm install
-
-Start the application: npm run dev
+  Navigate to the front folder: cd ../front
+  
+  Install dependencies: npm install
+  
+  Start the application: npm run dev
 
 # API Endpoints (Samples)
-POST /register - Register a new user.
-
-POST /login - Authenticate user and receive JWT.
-
-GET /workouts/:userId - Retrieve all workouts for a specific user (Protected).
-
-POST /workouts - Log a new workout session (Protected).
+  POST /register - Register a new user.
+  
+  POST /login - Authenticate user and receive JWT.
+  
+  GET /workouts/:userId - Retrieve all workouts for a specific user (Protected).
+  
+  POST /workouts - Log a new workout session (Protected).
