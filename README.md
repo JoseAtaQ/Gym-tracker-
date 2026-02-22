@@ -22,7 +22,7 @@ A comprehensive workout logging application that allows users to track exercises
   git clone <your-repo-url>
   cd workout-tracker-pro
 ```
-2. Backend Setup
+### 2. Backend Setup
   Navigate to the back folder: cd back
   
   Install dependencies: npm install
@@ -34,7 +34,7 @@ A comprehensive workout logging application that allows users to track exercises
     PORT=5000
   Start the server: npm start (or npm run dev)
 
-3. Frontend Setup
+### 3. Frontend Setup
   Navigate to the front folder: cd ../front
   
   Install dependencies: npm install
