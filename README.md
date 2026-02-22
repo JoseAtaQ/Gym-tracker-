@@ -21,6 +21,7 @@ A comprehensive workout logging application that allows users to track exercises
 ```bash
   git clone <your-repo-url>
   cd workout-tracker-pro
+```
 2. Backend Setup
   Navigate to the back folder: cd back
   
