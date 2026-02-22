@@ -1,0 +1,50 @@
+# Full-Stack Fitness Tracker (PERN Stack)
+
+A comprehensive workout logging application that allows users to track exercises, manage training volume, and monitor progress through data visualization. Built with a focus on secure authentication and relational data management.
+
+## Features
+* **User Authentication:** Secure signup and login using JWT (JSON Web Tokens) and Bcrypt password hashing.
+* **Workout Management:** Full CRUD functionality for logging workouts, including sets, reps, and weight.
+* **Data Visualization:** Real-time dashboards using Recharts to track training volume and workout frequency.
+* **Persistent Sessions:** Frontend state management that keeps users logged in via local storage and JWT verification.
+* **Relational Database:** Optimized PostgreSQL schema for managing users, exercises, and workout history.
+
+## Stack
+* **Frontend:** React.js, Axios, Recharts, CSS3
+* **Backend:** Node.js, Express.js
+* **Database:** PostgreSQL
+* **Security:** JSON Web Tokens (JWT), Bcrypt, Dotenv
+
+## Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd workout-tracker-pro
+2. Backend Setup
+  Navigate to the back folder: cd back
+  
+  Install dependencies: npm install
+  
+  Create a .env file and add your credentials:
+  
+    DATABASE_URL=your_postgresql_url
+    JWT_SECRET=your_secret_key
+    PORT=5000
+  Start the server: npm start (or npm run dev)
+
+3. Frontend Setup
+Navigate to the front folder: cd ../front
+
+Install dependencies: npm install
+
+Start the application: npm run dev
+
+# API Endpoints (Samples)
+POST /register - Register a new user.
+
+POST /login - Authenticate user and receive JWT.
+
+GET /workouts/:userId - Retrieve all workouts for a specific user (Protected).
+
+POST /workouts - Log a new workout session (Protected).
